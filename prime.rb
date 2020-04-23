@@ -1,3 +1,3 @@
 def prime?(number)
-  (2..number-1).none? {|divisor| number % n == 0}
+  (2..number-1).none? {|divisor| number % divisor == 0}
 end 
